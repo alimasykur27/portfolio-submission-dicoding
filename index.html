@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad Ali Masykur</title>
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="flex">
+            <a href="index.html" class="logo">Ahmad Ali Masykur</a>
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="#experience">Experience</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <div id="content" class="content">
+            <article id="experience" class="article-content experience">
+                <h2 class="title">Experience</h2>
+                <div class="experience-items">
+                    <h3 class="company">Universitas Gadjah Mada - Department of Computer Science and Electronics</h3>
+                    <p class="position">Position: lab assistant - programming</p>
+                    <p class="duration">Duration: August - December 2022</p>
+                    <div class="description">
+                        <p>Description: </p>
+                        <ul class="desc-items">
+                            <li>Assisting the students with the fundamentals of programming using C++ both theoretically and practically.</li>
+                            <li>Assisting with programming assignments: Help students with programming assignments, answer questions,
+                                and provide feedback on code.</li>
+                            <li>Assisting with debugging: Assist students with debugging code that is not working correctly.</li>
+                            <li>Assisting with grading: Assist with grading programming assignments and exams.</li>
+                        </ul>    
+                    </div>
+                </div>
+                <div class="experience-items">
+                    <h3 class="company">Universitas Gadjah Mada - Faculty of Mathematics and Natural Sciences</h3>
+                    <p class="position">Position: teaching assistant - programming course </p>
+                    <p class="duration">Duration: august - december 2022</p>
+                    <div class="description">
+                        <p>Description: </p>
+                        <ul class="desc-items">
+                            <li>Assisting the students with the fundamentals of programming using C++ both theoretically and practically.</li>
+                            <li>Grading assignments and exams: Teaching assistants may be responsible for grading assignments, quizzes, and exams to
+                                assess student learning.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-items">
+                    <h3 class="company">OmahTI (Organisasi Mahasiswa Ahli TI Computer Science UGM)</h3>
+                    <p class="position">Position: Member of cyber Security</p>
+                    <p class="position">Position: Head of Human Development</p>
+                    <p class="duration">Duration: November 2020 - February 2023</p>
+                </div>
+                <div class="experience-items">
+                    <h3 class="company">Gadjah Mada Robotic Team UGM</h3>
+                    <p class="position">Position: Programmer</p>
+                    <p class="duration">Duration: February 2021 - August 2022</p>
+                    <div class="description">
+                        <p>Description: </p>
+                        <ul class="desc-items">
+                            <li>Programming the robot using C++, Python, ROS, OpenCV.</li>
+                            <li>Maintaining robot software</li>
+                            <li>Designing and implementing robot software architecture</li>
+                            <li>Reserch about computer vision</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <article id="portfolio" class="article-content portfolio">
+                <h2 class="title">Portfolio</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="assets/img/portfolio1.png" alt="Image">
+                        <h3 class="card-name">Zona Buku</h3>
+                        <p class="card-desc">Porject for Workshop Implementasi Rekayasa Perangkat Lunak Course</p>
+                        <a href="https://docs.google.com/presentation/d/1JDA-adNcl0RApiNkapt3zonuxHPn3i0yyJtwlL1ntCA/edit?usp=sharing">learn more</a>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/portfolio2.png" alt="Image">
+                        <h3 class="card-name">Volvo</h3>
+                        <p class="card-desc">Website for volvo maintaining monitor. This website is project for final project in Universitas Gadjah Mada</p>
+                        <a href="https://github.com/alimasykur27/volvo/tree/main">learn
+                            more</a>
+                    </div>
+                </div>
+            </article>
+            <article id="contact" class="article-content contact">
+                <h2 class="title">Contact</h2>
+                <form action="">
+                    <div class="form-group">
+                        <label for="nama">Nama</label>
+                        <input type="text" id="nama" class="form-control" placeholder="Masukkan nama">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="Masukkan email">
+                    </div>
+                    <div class="form-group">
+                        <label for="telp">Telepon</label>
+                        <input type="text" id="telp" class="form-control" placeholder="Masukkan nomor telepon">
+                    </div>
+                    <div class="form-group">
+                        <label for="about">About</label>
+                        <select name="about" class="form-control">
+                            <option value="">Pilih</option>
+                            <option value="1">Web Development</option>
+                            <option value="2">Cyber Security</option>
+                            <option value="3">Backend Development</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="pesan">Pesan</label>
+                        <textarea name="" class="form-control" rows="10" placeholder="Masukkan pesan"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Kirim Pesan</button>
+                </form>
+            </article>
+        </div>
+        
+        <!-- Aside -->
+        <aside class="aside">
+            <div class="aside-container">
+                <div class="profile">
+                    <img src="assets/img/profile.jpg" alt="profile">
+                </div>
+                <h2 class="name">Ahmad Ali Masykur</h2>
+                <p>IT Entusiast | Web Developer | Cyber Security Entusiast</p>
+                <p>Computer Science Student at Universitas Gadjah Mada</p>
+                <div class="social">
+                    <a href="#"><i class="fa fa-phone"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/alimasykur27/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ahmad-ali-masykur-7774b6180/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/alimasykur27"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            created by <span>ahmad ali masykur</span> | &copy; 2023 all right reserved!
+        </div>
+    </footer>
+
+    <!-- Script js -->
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
